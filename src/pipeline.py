@@ -20,7 +20,7 @@ BACK_BR = (509, 404)
 IMG_PATH = 'images/img.jpeg'
 CODED_MAP_PATH = 'coded_id_map.npy'
 ALPHA_MASK_PATH = 'images/mask.jpeg' 
-SKY_FOLDER = 'sky3' 
+SKY_FOLDER = 'sky2' 
 
 OUTPUT_FOLDER = 'final_output'
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -57,8 +57,8 @@ DEBUG_MODE = False
 TEST_CONSTANT_SUN = False
 CONSTANT_SUN_DIR = np.array([0.5, 0.8, 0.0])
 
-GIF_OUTPUT_PATH = os.path.join(OUTPUT_FOLDER, 'sky3.gif')
-VIDEO_OUTPUT_PATH = os.path.join(OUTPUT_FOLDER, 'sky3.mp4')
+GIF_OUTPUT_PATH = os.path.join(OUTPUT_FOLDER, 'sky2.gif')
+VIDEO_OUTPUT_PATH = os.path.join(OUTPUT_FOLDER, 'sky2.mp4')
 GIF_DURATION = 100 
 VIDEO_FPS = 24
 
